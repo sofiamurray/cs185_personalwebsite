@@ -1,0 +1,164 @@
+.header {
+  font-family: Abril Fatface, Arvo;
+  font-size: 1.25em;
+  text-align:center;
+  color: #685044;
+  background-color: #EDBDB3;
+  padding: 10px
+}
+
+.nav-bar{
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background-color: #E9AFA3;
+  text-decoration: none;
+  font-family: Arvo;
+  color:#FFE8D6;
+}
+.tab{
+  margin: 5px;
+}
+body{
+  background-color: #FAE4D2;
+  margin: 10px;
+}
+h2{
+  font-family: Arvo;
+  font-size: 2em;
+  padding: 0px;
+  text-align: center;
+}
+h3{
+  font-family: Arvo;
+  font-size: 1.5em;
+}
+h4{
+  font-family: Arvo;
+  font-size: 1em;
+  text-decoration: none;
+  padding: 5px;
+}
+.home-body {
+  display: flex;
+  font-family: Open Sans;
+  padding: 30px;
+  color: #685044
+}
+#home img{
+  width: 300px; 
+  height: 386.5px;
+  border: 15px solid #EDBDB3;
+}
+#home .img {
+  padding-right: 30px;
+  float: left;
+}
+
+.videos-body {
+  text-align: center;
+  font-family: Open Sans;
+  padding: 0px;
+  color: #685044;
+}
+
+.images-body {
+  text-align: center;
+  font-family: Open Sans;
+  padding: 0px ;
+  color: #685044
+}
+
+#images .container {
+  display: grid;
+  margin: 0 auto;
+  padding: 0px;
+  grid-template-columns: repeat(auto-fill,minmax(200px,auto));
+  justify-content: center;
+  align-items: center;
+}
+#images .landscape{
+  grid-column: span 2;
+}
+
+#images .portrait{
+  grid-row: span 2;
+}
+ 
+#images img {   
+  max-width: 100%;
+  display: block;
+  cursor: pointer;
+}
+
+
+#pic:hover {
+  opacity: 0.9;
+}
+
+.extlinks-body {
+  text-align: center;
+  font-family: Open Sans;
+  padding: 0px;
+  color: #685044;
+}
+
+#extlinks .text_title{
+  padding: 10px;
+  font-family: Arvo;
+}
+
+#extlinks img{
+  width: 200px; 
+  height: 257.7px;
+  border: 15px solid #EDBDB3;
+}
+
+#extlinks .img {
+  float: left;
+  padding-right: 30px;
+}
+
+#extlinks .recipe{
+  display: flex;
+  font-family: Open Sans;
+  padding: 30px;
+  color: #685044;
+  align-items: center;
+}
+
+#back_to_top:hover {
+  background-color: #FCBDB0;
+  color: #FFE8D6;
+  text-decoration: none;
+}
+
+
+#scroll{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+}
+
+#back_to_top {
+display: none;
+position: fixed;
+bottom: 15px;
+right: 15px;
+z-index: 99;
+border-radius: 4px;
+color: #FFE8D6;
+background-color: #E9AFA3;
+font-size: 14px;
+padding: 10px;
+text-decoration: none;
+font-family: Arvo;
+}
+
+#back_to_top:hover {
+background-color: #FCBDB0;
+color: #FFE8D6;
+}
