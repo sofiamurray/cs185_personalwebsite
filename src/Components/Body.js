@@ -4,6 +4,7 @@ import Images from './Images'
 import Videos from './Videos'
 import ExtLinks from './ExtLinks'
 
+
 class Body extends Component {
     displayContent = () => {
         var activeTab = this.props.activeTab
@@ -21,7 +22,9 @@ class Body extends Component {
         }
     }
     render() {
-        return (this.displayContent());
+        return (
+            this.displayContent()  
+        );
     }
 }
 

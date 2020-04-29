@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 
+
 class Videos extends Component {
     render() {
         return (
             <div id="videos" className="videos-body">
-            <a href="#" id="back_to_top">Back to top</a>
+            
             <div>
                 <h2>My Music:</h2>
                 <p>

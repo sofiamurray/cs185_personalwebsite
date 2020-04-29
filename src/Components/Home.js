@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 
 
+
 class Home extends Component {
     render() {
         return (
             <div id="home" className ="home-body">
-            <a href="#" id="back_to_top">Back to top</a>
+            
             <div className ="img">
                 <img src={require("../images/sofia_sf.jpg")} alt="Sofia in San Francisco"/> 
             </div>

@@ -1,65 +1,41 @@
 import React, { Component } from 'react';
+import { SRLWrapper } from "simple-react-lightbox";
+
+
+
 
 class Images extends Component {
     render() {
         return (
             <div id = "images" className ="images-body">
-            <a href="#" id="back_to_top" >Back to top</a>
+            
             <div>
                 <h2>My Travels:</h2>
                 <p>
                     These are some photos from my time abroad. 
                 </p>
             </div>
-
+            <SRLWrapper>
             <div className = "container">
-                         
-
-                        <img class="gallery portrait" id="pic" src={require("../images/valencia_street.jpg")} alt="valencia1"/>
-                        <img class="gallery portrait" id="pic" src={require("../images/dublin_bar.jpg")} alt="dublin1"/>
-
-                    
-
-                        <img class="gallery portrait" id="pic" src={require("../images/valencia_paella.jpg")} alt="valencia2"/> 
-                        <img class="gallery portrait" id="pic" src={require("../images/zurich_cat.jpg")} alt="zurich3"/> 
-
-                        
-
-                        <img class="gallery portrait" id="pic" src={require("../images/barca_street.jpg")} alt="barca1"/> 
-                        <img class="gallery portrait" id="pic" src={require("../images/dublin_cliffs.jpg")} alt="dublin2"/>
-
-                        
-
-                        <img class="gallery portrait" id="pic" src={require("../images/munich_building.jpg")} alt="munich2"/>
-                        <img class="gallery portrait" id="pic" src={require("../images/madrid_street.jpg")} alt="madrid3"/> 
-
-                        
-
-                        <img class="gallery portrait" id="pic" src={require("../images/madrid_leaf.jpg")} alt="madrid4"/> 
-                        <img class="gallery portrait" id="pic" src={require("../images/buda_emma.jpg")} alt="buda2"/>
-
-                        
-
-                        <img class="gallery portrait" id="pic" src={require("../images/zurich_house.jpg")} alt="zurich4"/>
-                        <img class="gallery portrait" id="pic" src={require("../images/buda_view.jpg")} alt="buda1"/>
-
-                         
-
-                        <img class="gallery portrait" id="pic" src={require("../images/barca_fountain.jpg")} alt="barca2"/>
-
-
-
-                        
-
-
-            </div>
-
-            <div id="myModal" class="modal">
-            <img class="modal-content" id="expanded"/>
-              
-            </div>
             
-  
+
+                <img src={require("../images/valencia_street.jpg")} alt="Streets of Valencia"/>
+                <img src={require("../images/dublin_bar.jpg")} alt="Temple Bar in Dublin"/>
+                <img src={require("../images/valencia_paella.jpg")} alt="Paella in Valencia"/> 
+                <img src={require("../images/zurich_cat.jpg")} alt="Farm Cat in Zurich"/> 
+                <img src={require("../images/barca_street.jpg")} alt="Street of Barcelona"/> 
+                <img src={require("../images/dublin_cliffs.jpg")} alt="Cliffs in Howth"/>
+                <img src={require("../images/munich_building.jpg")} alt="New Town Hall in Munich"/>
+                <img src={require("../images/madrid_street.jpg")} alt="Streets of Madrid"/> 
+                <img src={require("../images/madrid_leaf.jpg")} alt="Botanical Gardens in Madrid"/> 
+                <img src={require("../images/buda_emma.jpg")} alt="Budapest with Friends"/>
+                <img src={require("../images/zurich_house.jpg")} alt="Exploring Zurich"/>
+                <img src={require("../images/buda_view.jpg")} alt="Pretty View in Budapest"/>
+                <img  src={require("../images/barca_fountain.jpg")} alt="Fountain in Barcelona"/>
+
+            
+            </div>
+            </SRLWrapper>
 
         </div>
         );

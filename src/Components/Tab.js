@@ -6,10 +6,7 @@ class Tab extends Component {
             return{backgroundColor: '#BF9086'}
             
         }
-        else{
-            return{backgroundColor: '#FCBDB0'}
-            console.log("hello fucker")
-        }
+        
     }
     render() {
         return (

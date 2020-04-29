@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
+
 class ExtLinks extends Component {
     render() {
         return (
             <div id="extlinks" className="extlinks-body">
             
-            <a href="#" id="back_to_top" >Back to top</a>
             <div>
                 <h2>My Cooking:</h2>
                 <p>

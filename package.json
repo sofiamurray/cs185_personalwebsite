@@ -1,4 +1,5 @@
 {
+  "homepage": "http://sofiamurray.github.io/cs185_personalwebsite",
   "name": "cs185_site",
   "version": "0.1.0",
   "private": true,
@@ -8,10 +9,14 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "react-scroll-up-button": "^1.6.4",
+    "simple-react-lightbox": "^2.7.3-2"
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -30,5 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }
