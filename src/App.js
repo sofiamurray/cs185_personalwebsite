@@ -7,7 +7,6 @@ import SimpleReactLightbox from "simple-react-lightbox";
 import ScrollUpButton from "react-scroll-up-button";
 
 
-
 class App extends Component {
   constructor(){
     super();
@@ -37,6 +36,10 @@ class App extends Component {
       {
         id: 4,
         title: 'Cooking'
+      },
+      {
+        id: 5,
+        title: 'Guest Book'
       }
     ]
 

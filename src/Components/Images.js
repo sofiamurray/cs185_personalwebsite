@@ -10,7 +10,7 @@ class Images extends Component {
             <div id = "images" className ="images-body">
             
             <div>
-                <h2>My Travels:</h2>
+                <h2>My Travels</h2>
                 <p>
                     These are some photos from my time abroad. 
                 </p>

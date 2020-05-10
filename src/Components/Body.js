@@ -3,6 +3,8 @@ import Home from './Home'
 import Images from './Images'
 import Videos from './Videos'
 import ExtLinks from './ExtLinks'
+import GuestBook from './GuestBook';
+
 
 
 class Body extends Component {
@@ -21,8 +23,12 @@ class Body extends Component {
             return <Videos/>
         }
         else if(activeTab == 4){
-            document.title="Cooking| Sofia's Corner"
+            document.title="Cooking | Sofia's Corner"
             return <ExtLinks/>
+        }
+        else if(activeTab == 5){
+            document.title="Guest Book | Sofia's Corner"
+            return <GuestBook/>
         }
     }
     render() {

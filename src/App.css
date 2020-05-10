@@ -1,3 +1,5 @@
+
+
 .header {
   font-family: Abril Fatface, Arvo;
   font-size: 1.25em;
@@ -45,10 +47,12 @@ h2{
   font-size: 2em;
   padding: 0px;
   text-align: center;
+  color: #685044;
 }
 h3{
   font-family: Arvo;
   font-size: 1.5em;
+  color: #685044;
 }
 h4{
   font-family: Arvo;
@@ -143,38 +147,161 @@ h4{
   align-items: center;
 }
 
-#back_to_top:hover {
-  background-color: #FCBDB0;
-  color: #FFE8D6;
-  text-decoration: none;
+/* -------------------- GUEST BOOK PAGE -------------------- */
+
+.form_container {
+  margin-top: 40px;
+  margin-left: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(500px,auto));
+  overflow: hidden;
+}
+#gbook h3{
+  font-family: Arvo;
+  font-size: 1.5em;
+  color: #685044;
+  margin:0px;
+}
+.add-item {
+  border-radius: 3px;
+  background-color: #EDBDB3; 
+  padding: 30px;
+  width: 80%; 
+  margin-right: auto;
 }
 
+.add-item form {
+  width: 100%;
+  overflow: hidden;
+  font-family: Arvo-Regular,Open Sans;
+}
 
-#scroll{
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
+#gbook p{
+  font-family: Arvo-Regular,Open Sans;
+  color: #685044;
+  margin: 5px;
+}
+
+input{
+  border-radius: 2px;
+  
+}
+textarea{
+  border-radius: 2px;
+}
+
+r{
+  font-family: Arvo-Regular,Open Sans;
+  font: bold;
+}
+
+.display-item {
+  display: flex;
+  flex-direction: columnn;
+  overflow: auto;
+  position: relative;
+  max-height: 80vh;
+
+}
+.display-item button {
+  margin-top: 20px;
+  margin-left: auto;
+  display: block;
+}
+.add-item form {
+  width: 100%;
+  overflow: hidden;
+  font-family: Arvo-Regular,Open Sans;
+}
+input {
+  font-size: 22px;
+  color: #000;
+  padding: 18px 22px;
+  font-size: 16px;
+  margin-bottom: 17px;
+  border: 0;
+  display: block;
+  width: 100%;  
+}
+.display-item h3{
+  padding: 20px;
+}
+ul {
+  display: flex;
+  flex-direction:column;
+  margin: 0;
+  padding-top: 10px;
+}
+li {
+  list-style-type: none;
+  background-color: #F8C6BC;
+  color: #000;
+  margin-bottom: 30px;
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,.14), 0 3px 3px -2px rgba(0,0,0,.12), 0 1px 8px 0 rgba(0,0,0,.2);
+}
+
+li p {
+  padding: 15px;
+}
+
+#message_name p{
+  color: #685044;
+  padding: 10px 10px 0px;
+  font-size: 20px;
+  font-family: Arvo;
+  font-weight: bold;
+}
+#message_date p{
+  color: #685044;
+  padding: 4px 5px;
+  font-size: 13px;
+  float: right;
+  font-weight: lighter;
+}
+#message_description p{
+  color: #685044;
+  padding: 5px 20px;
+  font-size: 15px;
+  font-weight: lighter;
+}
+#message_body p{
+  color: #685044;
+  padding: 5px 20px 0px;
+}
+
+form button {
+  width: 100%;
+  margin-top: 40px;
+}
+
+#send button {
+  border-radius: 2px;
+  min-width: 88px;
+  background-color: #685044;
   cursor: pointer;
-  width: 50px;
-  height: 50px;
+  border: 0;
+  min-width: 120px;
+  color: #fff;
+  font-family: Arvo;
+  font-size: 16px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+  padding: 20px 6px;
 }
 
-#back_to_top {
-display: none;
-position: fixed;
-bottom: 15px;
-right: 15px;
-z-index: 99;
-border-radius: 4px;
-color: #FFE8D6;
-background-color: #E9AFA3;
-font-size: 14px;
-padding: 10px;
-text-decoration: none;
-font-family: Arvo;
+#remove button{
+  border-radius: 2px;
+  min-width: 88px;
+  background-color: #685044;
+  cursor: pointer;
+  border: 0;
+  min-width: 120px;
+  color: #fff;
+  font-family: Arvo;
+  font-size: 16px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+  padding: 10px 6px;
 }
 
-#back_to_top:hover {
-background-color: #FCBDB0;
-color: #FFE8D6;
+button:hover{
+  background-color: #997A6B;
 }

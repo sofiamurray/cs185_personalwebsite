@@ -7,7 +7,7 @@ class Videos extends Component {
             <div id="videos" className="videos-body">
             
             <div>
-                <h2>My Music:</h2>
+                <h2>My Music</h2>
                 <p>
                     These are some songs I like (not necessarily my favorites because I'm too indecisive for that). 
                 </p>

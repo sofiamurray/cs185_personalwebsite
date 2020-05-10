@@ -7,7 +7,7 @@ class ExtLinks extends Component {
             <div id="extlinks" className="extlinks-body">
             
             <div>
-                <h2>My Cooking:</h2>
+                <h2>My Cooking</h2>
                 <p>
                     These are recipes I've tried and love. Click on the image to go to the recipe and try it yourself! 
                 </p>
