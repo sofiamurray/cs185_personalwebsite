@@ -150,8 +150,7 @@ h4{
 /* -------------------- GUEST BOOK PAGE -------------------- */
 
 .form_container {
-  margin-top: 40px;
-  margin-left: 20px;
+  margin: 40px 20px 0px;
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(500px,auto));
   overflow: hidden;
