@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/cs185_personalwebsite/static/css/main.8b8d9324.chunk.css",
-    "main.js": "/cs185_personalwebsite/static/js/main.90658770.chunk.js",
-    "main.js.map": "/cs185_personalwebsite/static/js/main.90658770.chunk.js.map",
+    "main.css": "/cs185_personalwebsite/static/css/main.784232f7.chunk.css",
+    "main.js": "/cs185_personalwebsite/static/js/main.0c9f299f.chunk.js",
+    "main.js.map": "/cs185_personalwebsite/static/js/main.0c9f299f.chunk.js.map",
     "runtime-main.js": "/cs185_personalwebsite/static/js/runtime-main.e5db6549.js",
     "runtime-main.js.map": "/cs185_personalwebsite/static/js/runtime-main.e5db6549.js.map",
-    "static/js/2.f3889a80.chunk.js": "/cs185_personalwebsite/static/js/2.f3889a80.chunk.js",
-    "static/js/2.f3889a80.chunk.js.map": "/cs185_personalwebsite/static/js/2.f3889a80.chunk.js.map",
+    "static/js/2.e76e3ce5.chunk.js": "/cs185_personalwebsite/static/js/2.e76e3ce5.chunk.js",
+    "static/js/2.e76e3ce5.chunk.js.map": "/cs185_personalwebsite/static/js/2.e76e3ce5.chunk.js.map",
     "index.html": "/cs185_personalwebsite/index.html",
-    "precache-manifest.da032a1e693ae61d8ea684b1e9d083ca.js": "/cs185_personalwebsite/precache-manifest.da032a1e693ae61d8ea684b1e9d083ca.js",
+    "precache-manifest.c67694c3f96e868de44f719f93781c62.js": "/cs185_personalwebsite/precache-manifest.c67694c3f96e868de44f719f93781c62.js",
     "service-worker.js": "/cs185_personalwebsite/service-worker.js",
-    "static/css/main.8b8d9324.chunk.css.map": "/cs185_personalwebsite/static/css/main.8b8d9324.chunk.css.map",
-    "static/js/2.f3889a80.chunk.js.LICENSE.txt": "/cs185_personalwebsite/static/js/2.f3889a80.chunk.js.LICENSE.txt",
+    "static/css/main.784232f7.chunk.css.map": "/cs185_personalwebsite/static/css/main.784232f7.chunk.css.map",
+    "static/js/2.e76e3ce5.chunk.js.LICENSE.txt": "/cs185_personalwebsite/static/js/2.e76e3ce5.chunk.js.LICENSE.txt",
     "static/media/barca_fountain.jpg": "/cs185_personalwebsite/static/media/barca_fountain.176eb723.jpg",
     "static/media/barca_street.jpg": "/cs185_personalwebsite/static/media/barca_street.9721cfbd.jpg",
     "static/media/buda_emma.jpg": "/cs185_personalwebsite/static/media/buda_emma.f1a99ced.jpg",
@@ -32,8 +32,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e5db6549.js",
-    "static/js/2.f3889a80.chunk.js",
-    "static/css/main.8b8d9324.chunk.css",
-    "static/js/main.90658770.chunk.js"
+    "static/js/2.e76e3ce5.chunk.js",
+    "static/css/main.784232f7.chunk.css",
+    "static/js/main.0c9f299f.chunk.js"
   ]
 }
