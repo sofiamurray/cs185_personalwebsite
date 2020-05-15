@@ -4,6 +4,8 @@ import Images from './Images'
 import Videos from './Videos'
 import ExtLinks from './ExtLinks'
 import GuestBook from './GuestBook';
+import Movies from './Movies';
+
 
 
 
@@ -27,6 +29,10 @@ class Body extends Component {
             return <ExtLinks/>
         }
         else if(activeTab == 5){
+            document.title="Movies | Sofia's Corner"
+            return <Movies/>
+        }
+        else if(activeTab == 6){
             document.title="Guest Book | Sofia's Corner"
             return <GuestBook/>
         }

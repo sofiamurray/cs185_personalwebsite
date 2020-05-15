@@ -1,4 +1,5 @@
 
+/* -------------------- HEADER -------------------- */
 
 .header {
   font-family: Abril Fatface, Arvo;
@@ -8,6 +9,8 @@
   background-color: #EDBDB3;
   padding: 10px
 }
+
+/* -------------------- NAVIGATION BAR -------------------- */
 
 .nav-bar{
   display: flex;
@@ -38,6 +41,9 @@
 .tab:hover {
   background-color: #FCBDB0;
 }
+
+/* -------------------- GENERAL BODY -------------------- */
+
 body{
   background-color: #FAE4D2;
   margin: 10px;
@@ -60,6 +66,9 @@ h4{
   text-decoration: none;
   padding: 5px;
 }
+
+/* -------------------- HOME PAGE -------------------- */
+
 .home-body {
   display: flex;
   font-family: Open Sans;
@@ -82,6 +91,8 @@ h4{
   padding: 0px;
   color: #685044;
 }
+
+/* -------------------- IMAGES PAGE -------------------- */
 
 .images-body {
   text-align: center;
@@ -115,6 +126,8 @@ h4{
 #images img:hover {
   opacity: 0.9;
 }
+
+/* -------------------- EXTERNAL LINKS PAGE -------------------- */
 
 .extlinks-body {
   text-align: center;
@@ -304,3 +317,128 @@ form button {
 button:hover{
   background-color: #997A6B;
 }
+
+/* -------------------- MOVIES PAGE -------------------- */
+
+.poster img{
+  margin: 3px;
+}
+
+.poster img:hover {
+  opacity: 0.8;
+}
+
+.movies-body {
+  text-align: center;
+  font-family: Open Sans;
+  padding: 0px ;
+  color: #685044
+}
+
+.moviesList {
+  display: grid;
+  margin: 0 auto;
+  padding: 0px;
+  grid-template-columns: repeat(auto-fill,minmax(225px,auto));
+  justify-content: center;
+  align-items: center;
+}
+
+#moviesList img {   
+  max-width: 100%;
+  display: block;
+  cursor: pointer;
+}
+
+
+.modal {
+  font-size: 12px;
+  display: flex;
+}
+
+.modal img{
+  border: 8px solid #685044;
+  float: left;
+  min-width: 300px;
+  min-height: 445px;
+
+}
+
+.modal img:hover {
+  opacity: 1.0;
+  cursor: default;
+}
+
+.movie-text{
+  padding: 15px;
+
+}
+
+.movie-title{
+  color: #685044;
+  padding: 10px 10px 0px;
+  font-size: 30px;
+  font-family: Arvo;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.rating span{
+  background-color: #BF9086;
+  border: 2px solid #BF9086;
+  border-radius: 3px;
+  color: #FFE8D6;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.rating{
+  margin-bottom: 10px;
+}
+
+.movie-rating{
+  color: #685044;
+  font-size: 16px;
+  font-family: Arvo;
+  font-weight: normal;
+  width: auto;
+  border: 10px solid red;
+}
+
+.movie-plot{
+  text-align: left;
+  font-family: Open Sans;
+  font-size: 18px;
+  text-indent: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.movie-awards{
+  font-family: Open Sans;
+  font-weight: lighter;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.movie-director{
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.movie-director span{
+  font-weight: bold;
+}
+
+.movie-runtime{
+  font-size: 12px;
+  font-family: Arvo;
+}
+
+
+
+
+
+
+
+
