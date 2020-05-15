@@ -27,7 +27,7 @@ class MoviesList extends Component {
                 <div id="moviesList" className="moviesList"> 
                     {
                         moviesList.map(movie => (
-                            <MovieCard movieID={movie} key={movie} />
+                            <Movies movieID={movie} key={movie} />
                         ))
                     } 
                 </div>  
@@ -36,7 +36,7 @@ class MoviesList extends Component {
     }
 }
 
-class MovieCard extends Component {
+class Movies extends Component {
     state = {
         movieData: {}
     };
@@ -59,14 +59,8 @@ class MovieCard extends Component {
             Poster,
         } = this.state.movieData;
 
-
-
-        if (!Poster || Poster === 'N/A') {
-            return null;
-        }
-
         return (
-            <div className="movie-card-container">
+            <div className="movie-container">
                 
                 <div className="image-container">
                     <div className="poster">
@@ -95,3 +89,8 @@ class MovieCard extends Component {
 }
 
 export default MoviesList;
+
+//sources used:
+//https://www.florin-pop.com/blog/2019/02/react-movie-search-app/
+//https://react-popup.elazizi.com/react-modal/
+//used for Content.js as well
