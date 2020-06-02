@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-
+import axios from 'axios';
 import config from '../config';
 import firebase from '../firebase.js';
 import Popup from "reactjs-popup";
-
+import Content from "./Content.js";
 
 
 class MoviesList extends Component {
@@ -402,7 +402,7 @@ class MovieGallery extends Component {
             })
 
             //console.log("this.state.inLists after:" + this.state.inLists);
-            this.forceUpdate(); 
+            window.location.reload(false);
             alert("movie added to "+list)
         }
 
