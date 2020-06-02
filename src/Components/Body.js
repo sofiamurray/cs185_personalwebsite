@@ -5,7 +5,9 @@ import Videos from './Videos'
 import ExtLinks from './ExtLinks'
 import GuestBook from './GuestBook';
 import Movies from './Movies';
-
+import MovieGallery from './MovieGallery';
+import MovieLists from './MovieLists';
+import MovieAdd from './MovieAdd';
 
 
 
@@ -35,6 +37,18 @@ class Body extends Component {
         else if(activeTab == 6){
             document.title="Guest Book | Sofia's Corner"
             return <GuestBook/>
+        }
+        else if(activeTab == 7){
+            document.title="Movie Gallery | Sofia's Corner"
+            return <MovieGallery/>
+        }
+        else if(activeTab == 8){
+            document.title="Add Movie List | Sofia's Corner"
+            return <MovieLists/>
+        }
+        else if(activeTab == 9){
+            document.title="Add Movie | Sofia's Corner"
+            return <MovieAdd/>
         }
     }
     render() {

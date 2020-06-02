@@ -66,7 +66,6 @@ class Movies extends Component {
                     <div className="poster">
 
                         <Popup 
-
                         contentStyle={
                             {border: "15px solid #EDBDB3", background: "#FAE4D2", minWidth: "569px"}
                         }

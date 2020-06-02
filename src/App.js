@@ -45,7 +45,20 @@ class App extends Component {
       {
         id: 6,
         title: 'Guest Book'
+      },
+      {
+        id: 7,
+        title: 'Movie Gallery'
+      },
+      {
+        id: 8,
+        title: 'Add Movie List'
+      },
+      {
+        id: 9,
+        title: 'Add Movie'
       }
+
     ]
 
     return (
