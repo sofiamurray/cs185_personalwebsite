@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import axios from 'axios';
+
 import config from '../config';
 import firebase from '../firebase.js';
 import Popup from "reactjs-popup";
-import Content from "./Content.js";
+
 
 
 class MoviesList extends Component {
@@ -402,7 +402,7 @@ class MovieGallery extends Component {
             })
 
             //console.log("this.state.inLists after:" + this.state.inLists);
-            window.location.reload(false);
+            this.forceUpdate(); 
             alert("movie added to "+list)
         }
 
@@ -427,7 +427,7 @@ class MovieGallery extends Component {
          async removeMovie(movieID) {
             const movieRef = firebase.database().ref(`/movies/${movieID}`);
             movieRef.remove(); 
-            window.location.reload(false);
+            this.forceUpdate();
             alert("Movie Successfully Deleted")
             //need to add refresh
     }

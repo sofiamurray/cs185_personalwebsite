@@ -40,22 +40,18 @@ class App extends Component {
       },
       {
         id: 5,
-        title: 'Movies'
-      },
-      {
-        id: 6,
         title: 'Guest Book'
       },
       {
-        id: 7,
+        id: 6,
         title: 'Movie Gallery'
       },
       {
-        id: 8,
+        id: 7,
         title: 'Add Movie List'
       },
       {
-        id: 9,
+        id: 8,
         title: 'Add Movie'
       }
 

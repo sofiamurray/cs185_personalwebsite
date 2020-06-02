@@ -31,22 +31,18 @@ class Body extends Component {
             return <ExtLinks/>
         }
         else if(activeTab == 5){
-            document.title="Movies | Sofia's Corner"
-            return <Movies/>
-        }
-        else if(activeTab == 6){
             document.title="Guest Book | Sofia's Corner"
             return <GuestBook/>
         }
-        else if(activeTab == 7){
+        else if(activeTab == 6){
             document.title="Movie Gallery | Sofia's Corner"
             return <MovieGallery/>
         }
-        else if(activeTab == 8){
+        else if(activeTab == 7){
             document.title="Add Movie List | Sofia's Corner"
             return <MovieLists/>
         }
-        else if(activeTab == 9){
+        else if(activeTab == 8){
             document.title="Add Movie | Sofia's Corner"
             return <MovieAdd/>
         }
