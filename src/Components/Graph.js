@@ -84,7 +84,7 @@ export default class Graph extends Component {
                 .append("image")
                     .attr("xlink:href", node.poster)
                     .attr("x", -50)   //play w these numbers
-                    .attr("y", -50)   //play w these numbers
+                    .attr("y", -30)   //play w these numbers
                     .attr("width", 300)
                     .attr("height", 300);
             }
