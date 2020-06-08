@@ -18,6 +18,7 @@ export default (props) => (
             <div className="movie-awards"> {props.movieData.Awards} </div>
             <div className="movie-director"> Directed By: <span>{props.movieData.Director}</span> </div>
             <div className="movie-runtime"> {props.movieData.Runtime} </div>
+
         </div>
    
    </div>

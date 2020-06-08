@@ -16,11 +16,13 @@ class GuestBook extends Component {
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
       }
+
       handleChange(e) {
         this.setState({
           [e.target.name]: e.target.value
         });
       }
+      
       handleSubmit(e) {
         e.preventDefault();
         const dataRef = firebase.database().ref('data');

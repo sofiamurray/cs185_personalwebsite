@@ -14,6 +14,7 @@ class MovieAdd extends Component {
             plot: '',
             awards: '',
             director: '',
+            actors: '',
             inLists: ["All"],
             movies: []
         }
@@ -45,6 +46,7 @@ class MovieAdd extends Component {
                     plot: res.data.Plot,
                     awards: res.data.Awards,
                     director: res.data.Director,
+                    actors: res.data.Actors,
                     inLists: this.state.inLists
                 });
 
@@ -53,7 +55,7 @@ class MovieAdd extends Component {
                 console.log(error);
                 alert("Imdb ID not recognized")
             })
-        alert("Movie Successfully Added!")
+        
         
     }
 

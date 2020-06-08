@@ -8,6 +8,7 @@ import Movies from './Movies';
 import MovieGallery from './MovieGallery';
 import MovieLists from './MovieLists';
 import MovieAdd from './MovieAdd';
+import Graph from './Graph';
 
 
 
@@ -35,14 +36,18 @@ class Body extends Component {
             return <GuestBook/>
         }
         else if(activeTab == 6){
+            document.title="Graph | Sofia's Corner"
+            return <Graph/>
+        }
+        else if(activeTab == 7){
             document.title="Movie Gallery | Sofia's Corner"
             return <MovieGallery/>
         }
-        else if(activeTab == 7){
+        else if(activeTab == 8){
             document.title="Add Movie List | Sofia's Corner"
             return <MovieLists/>
         }
-        else if(activeTab == 8){
+        else if(activeTab == 9){
             document.title="Add Movie | Sofia's Corner"
             return <MovieAdd/>
         }
