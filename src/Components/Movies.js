@@ -54,6 +54,7 @@ class Movies extends Component {
             });
     }
 
+
     render() {
         const {
             Poster,

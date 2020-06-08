@@ -31,9 +31,7 @@ class MovieLists extends Component {
         });
         alert("List Successfully Created!")
     }
-
-
-
+    
     render() {
         return (
             <div className='app'>
